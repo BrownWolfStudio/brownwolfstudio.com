@@ -18,16 +18,14 @@ export const Footer = () => (
                                         href={link.href}
                                         target='_blank'
                                         rel='noreferrer'
-                                        className='rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900'
-                                    >
+                                        className='rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900'>
                                         {link.label}
                                     </Link>
                                 ) : (
                                     <Link
                                         key={link.id}
                                         href={link.href}
-                                        className='rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900'
-                                    >
+                                        className='rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900'>
                                         {link.label}
                                     </Link>
                                 )}
@@ -42,8 +40,7 @@ export const Footer = () => (
                         href='mailto:contact@brownwolfstudio.com'
                         target='_blank'
                         rel='noreferrer'
-                        className='group'
-                    >
+                        className='group'>
                         <span className='sr-only'>BWS on Email</span>
                         <Mail className='h-6 w-6 transition-transform group-hover:scale-125' />
                     </Link>
@@ -51,8 +48,7 @@ export const Footer = () => (
                         href='https://twitter.com/brownwolfstudio'
                         target='_blank'
                         rel='noreferrer'
-                        className='group'
-                    >
+                        className='group'>
                         <span className='sr-only'>BWS on Twitter</span>
                         <Twitter className='h-6 w-6 transition-transform group-hover:scale-125' />
                     </Link>
@@ -60,8 +56,7 @@ export const Footer = () => (
                         href='https://www.instagram.com/brownwolfstudio/'
                         target='_blank'
                         rel='noreferrer'
-                        className='group'
-                    >
+                        className='group'>
                         <span className='sr-only'>BWS on Instagram</span>
                         <Instagram className='h-6 w-6 transition-transform group-hover:scale-125' />
                     </Link>
@@ -69,8 +64,7 @@ export const Footer = () => (
                         href='https://www.linkedin.com/company/brownwolfstudio/'
                         target='_blank'
                         rel='noreferrer'
-                        className='group'
-                    >
+                        className='group'>
                         <span className='sr-only'>BWS on LinkedIn</span>
                         <Linkedin className='h-6 w-6 transition-transform group-hover:scale-125' />
                     </Link>
@@ -78,8 +72,7 @@ export const Footer = () => (
                         href='https://www.facebook.com/brownwolfstudioplc/'
                         target='_blank'
                         rel='noreferrer'
-                        className='group'
-                    >
+                        className='group'>
                         <span className='sr-only'>BWS on Facebook</span>
                         <Facebook className='h-6 w-6 transition-transform group-hover:scale-125' />
                     </Link>

@@ -130,8 +130,7 @@ const faqs: {
                         href='https://calendly.com/brownwolfstudio/intro'
                         target='_blank'
                         rel='noreferrer'
-                        className='text-indigo-600'
-                    >
+                        className='text-indigo-600'>
                         here
                     </Link>
                     .
@@ -146,8 +145,7 @@ export const FAQ = () => (
     <section
         id='faq'
         aria-labelledby='faq'
-        className='scroll-mt-14 py-16 sm:scroll-mt-16 sm:py-20'
-    >
+        className='scroll-mt-14 py-16 sm:scroll-mt-16 sm:py-20'>
         <div className='mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:max-w-4xl lg:px-12'>
             <h2 className='text-3xl font-extrabold text-slate-900 sm:text-4xl lg:text-5xl'>
                 Frequently Asked Questions
@@ -159,8 +157,7 @@ export const FAQ = () => (
                     defaultOpen={faq.isOpen}
                     as='div'
                     key={faq.question}
-                    className='pt-6'
-                >
+                    className='pt-6'>
                     {({ open }) => (
                         <>
                             <dt className='text-lg'>
@@ -186,8 +183,7 @@ export const FAQ = () => (
                                     <div
                                         // eslint-disable-next-line react/no-array-index-key
                                         key={idx}
-                                        className='prose min-w-full text-base font-medium text-slate-900'
-                                    >
+                                        className='prose min-w-full text-base font-medium text-slate-900'>
                                         {answer()}
                                     </div>
                                 ))}

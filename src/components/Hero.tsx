@@ -17,8 +17,7 @@ export const Hero = () => (
                 href='https://calendly.com/brownwolfstudio/intro'
                 target='_blank'
                 rel='noreferrer'
-                className='inline-flex items-center justify-center rounded-full bg-indigo-600 py-2 px-4 text-sm font-semibold text-white hover:bg-indigo-700 hover:text-slate-100 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-700 active:bg-indigo-700 active:text-blue-100'
-            >
+                className='inline-flex items-center justify-center rounded-full bg-indigo-600 py-2 px-4 text-sm font-semibold text-white hover:bg-indigo-700 hover:text-slate-100 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-700 active:bg-indigo-700 active:text-blue-100'>
                 Get In Touch
             </Link>
         </div>

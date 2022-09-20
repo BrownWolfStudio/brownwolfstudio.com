@@ -10,8 +10,7 @@ const Document = () => (
         <body
             className={clsx({
                 'debug-screens': process.env.NODE_ENV === 'development',
-            })}
-        >
+            })}>
             <Main />
             <NextScript />
         </body>

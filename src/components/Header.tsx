@@ -16,8 +16,7 @@ const MobileNavigation = () => (
                         className='h-3.5 w-3.5 overflow-visible stroke-slate-700'
                         fill='none'
                         strokeWidth={2}
-                        strokeLinecap='round'
-                    >
+                        strokeLinecap='round'>
                         <path
                             d='M0 1H14M0 7H14M0 13H14'
                             className={clsx('origin-center transition', {
@@ -40,8 +39,7 @@ const MobileNavigation = () => (
                         enterTo='opacity-100'
                         leave='duration-150 ease-in'
                         leaveFrom='opacity-100'
-                        leaveTo='opacity-0'
-                    >
+                        leaveTo='opacity-0'>
                         <Popover.Overlay className='fixed inset-0 bg-slate-300/50' />
                     </Transition.Child>
                     <Transition.Child
@@ -51,12 +49,10 @@ const MobileNavigation = () => (
                         enterTo='opacity-100 scale-100'
                         leave='duration-100 ease-in'
                         leaveFrom='opacity-100 scale-100'
-                        leaveTo='opacity-0 scale-95'
-                    >
+                        leaveTo='opacity-0 scale-95'>
                         <Popover.Panel
                             as='ul'
-                            className='absolute inset-x-0 top-full mt-4 origin-top space-y-4 rounded-2xl bg-white p-6 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5'
-                        >
+                            className='absolute inset-x-0 top-full mt-4 origin-top space-y-4 rounded-2xl bg-white p-6 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5'>
                             {links.map(link => (
                                 <li key={link.id}>
                                     {link.external ? (
@@ -65,16 +61,14 @@ const MobileNavigation = () => (
                                             target='_blank'
                                             rel='noreferrer'
                                             className='block w-full'
-                                            onClick={() => close()}
-                                        >
+                                            onClick={() => close()}>
                                             {link.label}
                                         </Link>
                                     ) : (
                                         <Link
                                             href={link.href}
                                             className='block w-full'
-                                            onClick={() => close()}
-                                        >
+                                            onClick={() => close()}>
                                             {link.label}
                                         </Link>
                                     )}
@@ -106,22 +100,19 @@ export const Header = () => (
                                 'ml-12': idx === 0,
                                 'ml-6': idx > 0,
                             })}
-                            key={link.id}
-                        >
+                            key={link.id}>
                             {link.external ? (
                                 <Link
                                     href={link.href}
                                     target='_blank'
                                     rel='noreferrer'
-                                    className='rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900'
-                                >
+                                    className='rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900'>
                                     {link.label}
                                 </Link>
                             ) : (
                                 <Link
                                     href={link.href}
-                                    className='rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900'
-                                >
+                                    className='rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900'>
                                     {link.label}
                                 </Link>
                             )}
@@ -132,8 +123,7 @@ export const Header = () => (
                             href='https://calendly.com/brownwolfstudio/intro'
                             target='_blank'
                             rel='noreferrer'
-                            className='group inline-flex items-center justify-center rounded-full bg-indigo-600 py-2 px-4 text-sm font-semibold text-white hover:bg-indigo-700 hover:text-slate-100 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-700 active:bg-indigo-700 active:text-blue-100'
-                        >
+                            className='group inline-flex items-center justify-center rounded-full bg-indigo-600 py-2 px-4 text-sm font-semibold text-white hover:bg-indigo-700 hover:text-slate-100 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-700 active:bg-indigo-700 active:text-blue-100'>
                             Contact Us
                         </Link>
                     </li>

@@ -71,8 +71,7 @@ export const Pricing = () => (
                                     {websiteFeatures.map(feature => (
                                         <li
                                             key={feature}
-                                            className='flex items-start lg:col-span-1'
-                                        >
+                                            className='flex items-start lg:col-span-1'>
                                             <div className='flex-shrink-0'>
                                                 <CheckCircleIcon
                                                     className='h-5 w-5 text-green-400'
@@ -103,8 +102,7 @@ export const Pricing = () => (
                                         href='https://calendly.com/brownwolfstudio/intro'
                                         target='_blank'
                                         rel='noreferrer'
-                                        className='flex items-center justify-center rounded-md border border-transparent bg-slate-800 px-5 py-3 text-base font-medium text-white hover:bg-slate-900'
-                                    >
+                                        className='flex items-center justify-center rounded-md border border-transparent bg-slate-800 px-5 py-3 text-base font-medium text-white hover:bg-slate-900'>
                                         Contact Us
                                     </Link>
                                 </div>
@@ -141,8 +139,7 @@ export const Pricing = () => (
                                     {customFeatures.map(feature => (
                                         <li
                                             key={feature}
-                                            className='flex items-start lg:col-span-1'
-                                        >
+                                            className='flex items-start lg:col-span-1'>
                                             <div className='flex-shrink-0'>
                                                 <CheckCircleIcon
                                                     className='h-5 w-5 text-green-400'
@@ -173,8 +170,7 @@ export const Pricing = () => (
                                         href='https://calendly.com/brownwolfstudio/intro'
                                         target='_blank'
                                         rel='noreferrer'
-                                        className='flex items-center justify-center rounded-md border border-transparent bg-slate-800 px-5 py-3 text-base font-medium text-white hover:bg-slate-900'
-                                    >
+                                        className='flex items-center justify-center rounded-md border border-transparent bg-slate-800 px-5 py-3 text-base font-medium text-white hover:bg-slate-900'>
                                         Contact Us
                                     </Link>
                                 </div>
@@ -210,8 +206,7 @@ export const Pricing = () => (
                                     {maintenanceFeatures.map(feature => (
                                         <li
                                             key={feature}
-                                            className='flex items-start lg:col-span-1'
-                                        >
+                                            className='flex items-start lg:col-span-1'>
                                             <div className='flex-shrink-0'>
                                                 <CheckCircleIcon
                                                     className='h-5 w-5 text-green-400'
@@ -242,8 +237,7 @@ export const Pricing = () => (
                                         href='https://calendly.com/brownwolfstudio/intro'
                                         target='_blank'
                                         rel='noreferrer'
-                                        className='flex items-center justify-center rounded-md border border-transparent bg-slate-800 px-5 py-3 text-base font-medium text-white hover:bg-slate-900'
-                                    >
+                                        className='flex items-center justify-center rounded-md border border-transparent bg-slate-800 px-5 py-3 text-base font-medium text-white hover:bg-slate-900'>
                                         Contact Us
                                     </Link>
                                 </div>
