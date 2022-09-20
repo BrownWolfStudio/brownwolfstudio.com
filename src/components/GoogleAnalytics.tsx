@@ -11,9 +11,9 @@ const GoogleAnalytics = ({ measurementId }: { measurementId?: string }) => {
             <Script
                 async
                 src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`}
-                strategy='afterInteractive'
+                strategy='worker'
             />
-            <Script id='google-analytics' strategy='afterInteractive'>
+            <Script id='google-analytics' strategy='worker'>
                 {`
                     window.dataLayer = window.dataLayer || [];
                     function gtag(){window.dataLayer.push(arguments);}

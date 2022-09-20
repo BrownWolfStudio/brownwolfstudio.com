@@ -13,6 +13,7 @@ const nextConfig = {
     },
     experimental: {
         newNextLinkBehavior: true,
+        nextScriptWorkers: true,
     },
 };
 
