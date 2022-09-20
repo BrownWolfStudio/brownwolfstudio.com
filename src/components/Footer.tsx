@@ -8,7 +8,7 @@ export const Footer = () => (
         <div className='container mx-auto px-4 sm:px-6 lg:px-8'>
             <div className='py-16'>
                 <Logo className='mx-auto h-8 w-auto' />
-                <nav className='mt-10 text-sm' aria-label='quick links'>
+                <nav className='mt-10 text-sm'>
                     <ul className='-my-1 flex justify-center space-x-6'>
                         {links.map(link => (
                             <li>
