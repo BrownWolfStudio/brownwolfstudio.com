@@ -165,7 +165,7 @@ export const FAQ = () => (
                         <>
                             <dt className='text-lg'>
                                 <Disclosure.Button className='flex w-full items-start justify-between text-left text-slate-400'>
-                                    <span className='font-medium text-slate-900'>
+                                    <span className='font-bold text-slate-900'>
                                         {faq.question}
                                     </span>
                                     <span className='ml-6 flex h-7 items-center'>
@@ -186,7 +186,7 @@ export const FAQ = () => (
                                     <div
                                         // eslint-disable-next-line react/no-array-index-key
                                         key={idx}
-                                        className='prose min-w-full text-base text-slate-500'
+                                        className='prose min-w-full text-base font-medium text-slate-900'
                                     >
                                         {answer()}
                                     </div>

@@ -84,7 +84,7 @@ export const Footer = () => (
                         <Facebook className='h-6 w-6 transition-transform group-hover:scale-125' />
                     </Link>
                 </div>
-                <p className='mt-6 text-sm text-slate-500 sm:mt-0'>
+                <p className='mt-6 text-sm text-slate-900 sm:mt-0'>
                     Copyright &copy; {new Date().getFullYear()} BWS. All rights
                     reserved.
                 </p>

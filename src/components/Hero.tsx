@@ -26,8 +26,9 @@ export const Hero = () => (
             <Image
                 src={heroImg}
                 alt='Hero'
-                role='presentation'
                 className='relative mx-auto w-3/4 md:ml-auto md:mr-0 md:w-4/5'
+                placeholder='blur'
+                priority
             />
         </div>
     </main>
