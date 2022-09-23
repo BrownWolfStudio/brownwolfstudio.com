@@ -20,7 +20,7 @@ const faqs: {
                     </p>
                     <p>
                         However, we also design and develop complex websites,
-                        applications and user flows. Our baseline is at £2000
+                        applications and user flows. Our baseline is at £1500
                         (GBP). However, the cost ultimately depends on the
                         requirement.
                     </p>
