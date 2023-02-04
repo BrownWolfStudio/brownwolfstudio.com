@@ -1,7 +1,7 @@
 import { FAQ } from '@/components/FAQ';
 import { Hero } from '@/components/Hero';
 import { Pricing } from '@/components/Pricing';
-import { Showcase } from '@/components/showcase';
+import { Showcase } from '@/components/Showcase';
 import { type GetStaticProps } from 'next';
 
 const Index = () => (
