@@ -47,7 +47,7 @@ export const Slides = () => (
                         width={600}
                         height={600}
                     />
-                    <div>Description</div>
+                    <div>App Description</div>
                 </SwiperSlide>
             ))}
         </Swiper>
