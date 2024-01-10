@@ -19,4 +19,9 @@ export const links: {
         label: 'FAQ',
         href: '#faq',
     },
+    {
+        id: 4,
+        label: 'Showcase',
+        href: '#showcase',
+    },
 ];
