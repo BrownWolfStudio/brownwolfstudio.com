@@ -5,9 +5,7 @@ const nextConfig = {
     images: {
         domains: [
             'dummyimage.com',
-            'brownwolfstudio.com',
-            'cdn.brownwolfstudio.com',
-            process.env.NEXT_PUBLIC_DOMAIN ?? 'brownwolfstudio.com',
+            process.env.NEXT_PUBLIC_VERCEL_URL,
         ],
         formats: ['image/avif', 'image/webp'],
     },

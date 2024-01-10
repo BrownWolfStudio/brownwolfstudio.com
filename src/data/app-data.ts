@@ -1,6 +1,6 @@
 import pkg from 'package.json';
 
-const rootUrl = process.env.NEXT_PUBLIC_DOMAIN ?? 'brownwolfstudio.com';
+const rootUrl = process.env.NEXT_PUBLIC_VERCEL_URL;
 const name = 'BWS';
 
 const data = {
